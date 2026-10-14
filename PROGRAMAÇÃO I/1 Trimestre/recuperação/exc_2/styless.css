@@ -1,0 +1,16 @@
+h1 {
+    color: blueviolet;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font: size xx large 5px;;
+}
+body {
+    background-color: pink;
+}
+.maria {
+    text-align: center;
+    display: block;
+    margin-top: 15px;
+    font-size: 14px;
+    border-radius: 10px;
+}

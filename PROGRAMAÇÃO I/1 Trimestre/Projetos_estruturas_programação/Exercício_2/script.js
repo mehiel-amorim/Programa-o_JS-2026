@@ -1,0 +1,7 @@
+let a = 10
+let b = 5
+let c = a + b
+console.log(c)
+alert(c)
+console.log("5"-2)
+console.log(5 > 2 && "Ana" == "Bia")
