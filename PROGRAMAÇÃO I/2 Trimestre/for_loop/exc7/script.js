@@ -4,7 +4,7 @@ const oito = 8;
 for(i = 1; i <= oito ; i++){
     let temperatura = +prompt("qual a temperatura");
 
-    while(temperatura > 5 ){
+    if(temperatura > 5 ){
         contadorTemLevada ++
     }
 
