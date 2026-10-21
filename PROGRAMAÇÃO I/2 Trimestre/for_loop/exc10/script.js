@@ -23,8 +23,6 @@ for(let i = 1; i <= 10; i ++){
 
     if(lotes >= 1000){
         lotes1000 ++;
-    }else{
-        alert("Nenhum lote tem mais que 1000 unidades!!");
     }
 }
 alert(maiorLote)
