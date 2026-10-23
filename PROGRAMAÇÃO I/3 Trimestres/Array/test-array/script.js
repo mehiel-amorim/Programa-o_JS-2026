@@ -6,3 +6,7 @@ for (let i = 0; i < numeros.length; i++){
     soma = soma + numeros[i]
 }
 console.log("soma: " + soma);
+
+let nomes = [A, B, C, D,];
+
+let posicao 
