@@ -9,10 +9,13 @@ body{
     ul{
         display: flex;
         align-items: center;
-        justify-content: space-around;
+        justify-content: center;
+        gap: 67px;
         li{
-            background-color: aqua ;
-            list-style: none;
+            background-color: rgba(0, 255, 255, 0.411) ;
+            border-radius: 10%;
+            
+            padding: 1vw 3vw;
         }
     }
 }
