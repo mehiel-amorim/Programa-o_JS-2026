@@ -7,3 +7,11 @@ let nota = [nota1, nota2];
 for (let i = 0; i < notas.length; i ++){
     console.log(notas[i]);
 }
+
+let numeros = [10, 20, 30, 40];
+let soma = 0;
+
+for (let i = 0; i < numeros.length; i++){
+    soma = soma + numeros[i]
+}
+console.log("soma: " + soma);

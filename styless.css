@@ -1,0 +1,18 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+
+    background: url(src/icon.png) no-repeat;
+    background-position: center 1vw;
+    ul{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        li{
+            background-color: aqua ;
+            list-style: none;
+        }
+    }
+}
