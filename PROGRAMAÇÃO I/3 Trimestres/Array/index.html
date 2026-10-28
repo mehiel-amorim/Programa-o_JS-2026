@@ -7,6 +7,24 @@
     <title>Document</title>
 </head>
 <body>
-    
+
+  <h1 id="relogio">00:00:00</h1>
+
+  <script>
+    function atualizarRelogio() {
+      let agora = new Date();
+
+      let horas = agora.getHours();
+      let minutos = agora.getMinutes();
+      let segundos = agora.getSeconds();
+
+      document.getElementById("relogio").innerHTML =
+        horas + ":" + minutos + ":" + segundos;
+    }
+
+    setInterval(atualizarRelogio, 1000);
+    atualizarRelogio();
+  </script>
+
 </body>
 </html>
