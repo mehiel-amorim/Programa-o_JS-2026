@@ -6,5 +6,12 @@ for(let i = 0; i < numeros.length; i++){
     }
 }
 
-pares.sort((a, b) => a - b);
-console.log(pares)
+//pares.sort((a, b) => a - b); metod 1
+//console.log(pares)
+
+
+//metodo 2
+pares.sort(function(a , b){
+    return a- b
+});
+console.log(pares);
