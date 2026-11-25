@@ -1,6 +1,6 @@
 let notas = [];
 for(i = 0; i < 3; i++){
-    let boletim = +prompt("Digite suas notas do seu boletim");
+    let boletim = +prompt("Digite suas notas da "+ i + " avaliação");
     notas.push(boletim)
 };
 
